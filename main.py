@@ -1,6 +1,9 @@
+# Welcome Message
 print("Welcome To Quizey Game With Mr Jack😉.")
 start = input("Do you Want To Play Or Not (y/n) >>").lower()
+# Score
 score = 0
+# Close The Game
 if start != "y":
     print("See You Later😎.")
     quit()
@@ -10,6 +13,7 @@ print("Note>> This Game is 7 questions")
 print("Let's Start With the First Question.")
 
 
+# Check Answer
 def answer_checker(q, a, s):
     if q == a:
         print("You Got it.")
@@ -27,6 +31,7 @@ def answer_checker(q, a, s):
     print(f"Answer >> {a}")
 
 
+# Q and A
 while True:
     Q1 = input("Who Is The First Man On The Moon? ").lower()
     A1 = "neil armstrong"
@@ -72,4 +77,4 @@ while True:
         continue
     else:
         break
-
+# The End.
