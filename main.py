@@ -55,3 +55,21 @@ while True:
     Q7 = input("There have been more missions to this planet versus any other planet? ").lower()
     A7 = "mars"
     answer_checker(Q7, A7, score)
+
+    print("-----------------------")
+    print(f"Your Score >> {score}")
+    print("-----------------------")
+
+    if 5 < score:
+        print("You Did A Great Job Here🐱‍")
+    elif 3 < score < 5:
+        print("You Did Good Job 😊")
+    else:
+        print("You Will Better in the next Time.")
+
+    again = input("Do Want To Play again (y/n)>>").lower()
+    if again == "y":
+        continue
+    else:
+        break
+
