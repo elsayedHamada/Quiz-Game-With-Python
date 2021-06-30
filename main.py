@@ -69,6 +69,7 @@ while True:
         print("You Did A Great Job Here🐱‍")
     elif 3 < score < 5:
         print("You Did Good Job 😊")
+        print("You will be the next elon mask")
     else:
         print("You Will Better in the next Time.")
 
