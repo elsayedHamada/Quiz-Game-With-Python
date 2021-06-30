@@ -32,11 +32,11 @@ def answer_checker(q, a, s):
 
 
 # Q and A
-whil
-    # e True:
-    QQ1 = input("Who Is The First Man On The Moon? ").lower()
+while True:
+    # Q
+    Q1 = input("Who Is The First Man On The Moon? ").lower()
+    # A
     A1 = "neil armstrong"
-  # A
     answer_checker(Q1, A1, score)
 
     # Q
