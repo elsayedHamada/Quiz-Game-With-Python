@@ -32,32 +32,46 @@ def answer_checker(q, a, s):
 
 
 # Q and A
-while True:
-    Q1 = input("Who Is The First Man On The Moon? ").lower()
+whil
+    # e True:
+    QQ1 = input("Who Is The First Man On The Moon? ").lower()
     A1 = "neil armstrong"
+  # A
     answer_checker(Q1, A1, score)
 
+    # Q
     Q2 = input("and Which Flight He Was On? ").lower()
+    # A
     A2 = "apollo 11"
     answer_checker(Q2, A2, score)
 
+    # Q
     Q3 = input("Which is the smallest planet within our solar system? ").lower()
+    # A
     A3 = "mercury"
     answer_checker(Q3, A3, score)
 
+    # Q
     Q4 = input("Which is the second smallest planet within our solar system? ").lower()
+    # A
     A4 = "mars"
     answer_checker(Q4, A4, score)
 
+    # Q
     Q5 = input("Which is the brightest planet in the night’s sky? ").lower()
+    # A
     A5 = "venus"
     answer_checker(Q5, A5, score)
 
+    # Q
     Q6 = input("Which planet is larger, Neptune or Saturn? ").lower()
+    # A
     A6 = "saturn"
     answer_checker(Q6, A6, score)
 
+    # Q
     Q7 = input("There have been more missions to this planet versus any other planet? ").lower()
+    # A
     A7 = "mars"
     answer_checker(Q7, A7, score)
 
